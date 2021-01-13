@@ -4,6 +4,12 @@ def recursive_fibonacci(n):
     else:
         return(recursive_fibonacci(n - 1) + recursive_fibonacci(n - 2))
 
+def sum(l):
+    result = 0
+    for i in l:
+        result += i
+
+    return result
 
 if __name__ == "__main__":
     n_terms = 10
