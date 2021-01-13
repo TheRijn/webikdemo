@@ -5,12 +5,12 @@ def recursive_fibonacci(n):
         return(recursive_fibonacci(n - 1) + recursive_fibonacci(n - 2))
 
 def sum(l):
-    result = 0
+    result = 10
     for i in l:
         result += i
 
     return result
-    
+
 def concat(l):
     result = ""
     for i in l:
