@@ -4,6 +4,10 @@ def recursive_fibonacci(n):
     else:
         return(recursive_fibonacci(n - 1) + recursive_fibonacci(n - 2))
 
+def concat(l):
+    result = ""
+    for i in l:
+        result += i
 
 if __name__ == "__main__":
     n_terms = 10
