@@ -10,6 +10,11 @@ def sum(l):
         result += i
 
     return result
+    
+def concat(l):
+    result = ""
+    for i in l:
+        result += i
 
 if __name__ == "__main__":
     n_terms = 10
