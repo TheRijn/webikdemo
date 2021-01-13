@@ -10,9 +10,9 @@ def sum(l):
         result += i
 
     return result
-    
+
 def concat(l):
-    result = ""
+    result = "concat: "
     for i in l:
         result += i
 
